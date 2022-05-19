@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:name_your_price/pages/home_page.dart';
+
+import 'pages/home_page.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -11,10 +13,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Name Your Price',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      debugShowCheckedModeBanner: false,
       home: const HomePage(),
     );
   }
