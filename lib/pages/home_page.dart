@@ -6,22 +6,23 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Column(
-          children: [
-            const Text('Bluetooth mouse'),
-            TextField(
-              inputFormatters: [FilteringTextInputFormatter.digitsOnly],
-            ),
-            TextButton(
-              onPressed: () {
-                
-              },
-              child: const Text("Check"),
-            ),
-          ],
-        ),
+    return const Scaffold(
+      body:  Center(
+        child: Text('hello world'),
+        // child: Column(
+        //   children: [
+        //     const Text('Bluetooth mouse'),
+        //     TextField(
+        //       inputFormatters: [FilteringTextInputFormatter.digitsOnly],
+        //     ),
+        //     TextButton(
+        //       onPressed: () {
+
+        //       },
+        //       child: const Text("Check"),
+        //     ),
+        //   ],
+        // ),
       ),
     );
   }
